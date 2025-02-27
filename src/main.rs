@@ -5,7 +5,7 @@ const VERSION: &str = env!("CARGO_PKG_VERSION");
 fn main() {
     let matches = Command::new("MRPACK Downloader")
         .version(VERSION)
-        .about("MRPACK DOWNLOADER downloads all mods from a .mrpack modpack")
+        .about("MRPACK DOWNLOADER downloads all mods from a .mrpack Modrinth modpack")
         .arg(
             Arg::new("mrpack_path")
                 .long("mrpack_path")
