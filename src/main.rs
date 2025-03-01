@@ -130,6 +130,8 @@ fn main() -> Result<(), &'static str> {
         };
     }
 
+    print!("\n");
+
     println!(
         "Successfully installed {} from {} mods",
         successful_downloaded.len(),
